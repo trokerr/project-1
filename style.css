@@ -1,0 +1,73 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+.cont {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-image: url(./beachshowcase.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;       
+    text-align: center;
+}
+.zag {
+    font-size: 3vw;
+    color: #926239;
+}
+.block {
+    color: #926239;
+    font-size: 1.6vw;   
+}
+.button {
+    background-color: #92623900;
+    color:#926239;
+    padding: 1vw;
+    font-size: 1.2vw;
+    border: 0.2vw solid;
+    border-radius: 10px; 
+    cursor: pointer;     
+}
+.braun {
+    background-color: #926239;
+    font-size: 1.1vw; 
+    color: #f4f4f4;
+    margin: 0;
+    text-align: center;
+    padding: 0.9vw;
+}
+.while {
+    background-color: #f4f4f4;
+    font-size: 1.1vw; 
+    color: #926239;
+    margin: 0;
+    text-align: center; 
+    padding: 0.9vw;
+}
+
+.horis {
+    display: inline-block;    
+    width: calc(31.5vw - 3px); 
+       
+}
+
+.pbr {
+    background-color: #926239;
+    font-size: 1.1vw; 
+    color: #f4f4f4;
+    margin: 0;
+    padding: 0.9vw;
+    
+}
+.pwh {
+    font-size: 1.1vw; 
+    color: #926239;
+    margin: 0;
+    padding: 0.9vw ;
+       
+}
